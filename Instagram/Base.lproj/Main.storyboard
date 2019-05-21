@@ -27,13 +27,28 @@
         <!--Home View Controller-->
         <scene sceneID="GOC-rC-sJb">
             <objects>
-                <viewController storyboardIdentifier="Home" id="UgK-4B-4zS" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="UgK-4B-4zS" customClass="HomeViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Upd-hm-RWS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yNl-PN-CSP">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Y5V-Qy-f6y" firstAttribute="trailing" secondItem="yNl-PN-CSP" secondAttribute="trailing" id="1W1-44-bkM"/>
+                            <constraint firstItem="Y5V-Qy-f6y" firstAttribute="bottom" secondItem="yNl-PN-CSP" secondAttribute="bottom" id="B9S-Zj-RDj"/>
+                            <constraint firstItem="yNl-PN-CSP" firstAttribute="leading" secondItem="Y5V-Qy-f6y" secondAttribute="leading" id="ahP-eB-uep"/>
+                            <constraint firstItem="yNl-PN-CSP" firstAttribute="top" secondItem="Y5V-Qy-f6y" secondAttribute="top" id="rcc-Ze-pa5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Y5V-Qy-f6y"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="yNl-PN-CSP" id="LNC-4v-Ajn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pK4-4u-VMn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
