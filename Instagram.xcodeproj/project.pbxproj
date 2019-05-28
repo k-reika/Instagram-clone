@@ -13,16 +13,17 @@
 		E644ECCB229399E500A4A013 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644ECCA229399E500A4A013 /* PostData.swift */; };
 		E644ECD22293A04600A4A013 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644ECD02293A04600A4A013 /* PostTableViewCell.swift */; };
 		E644ECD32293A04600A4A013 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E644ECD12293A04600A4A013 /* PostTableViewCell.xib */; };
+		E660C10F2295238000C42D49 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660C10E2295238000C42D49 /* CommentViewController.swift */; };
 		E69302EF228CEE43005E5E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69302EE228CEE43005E5E9E /* AppDelegate.swift */; };
 		E69302F1228CEE43005E5E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69302F0228CEE43005E5E9E /* ViewController.swift */; };
 		E69302F4228CEE43005E5E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69302F2228CEE43005E5E9E /* Main.storyboard */; };
-		E69302F6228CEE45005E5E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69302F5228CEE45005E5E9E /* Assets.xcassets */; };
 		E69302F9228CEE45005E5E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69302F7228CEE45005E5E9E /* LaunchScreen.storyboard */; };
 		E6930301228CF7C6005E5E9E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6930300228CF7C6005E5E9E /* LoginViewController.swift */; };
 		E6930303228CF7D9005E5E9E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6930302228CF7D9005E5E9E /* HomeViewController.swift */; };
 		E6930305228CF7F1005E5E9E /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6930304228CF7F1005E5E9E /* ImageSelectViewController.swift */; };
 		E6930307228CF805005E5E9E /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6930306228CF805005E5E9E /* PostViewController.swift */; };
 		E6930309228CF822005E5E9E /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6930308228CF822005E5E9E /* SettingViewController.swift */; };
+		E6A9D0942294DB3A00833363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A9D0932294DB3900833363 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,11 +35,11 @@
 		E644ECCA229399E500A4A013 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		E644ECD02293A04600A4A013 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		E644ECD12293A04600A4A013 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		E660C10E2295238000C42D49 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		E69302EB228CEE43005E5E9E /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69302EE228CEE43005E5E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E69302F0228CEE43005E5E9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E69302F3228CEE43005E5E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E69302F5228CEE45005E5E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E69302F8228CEE45005E5E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E69302FA228CEE45005E5E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6930300228CF7C6005E5E9E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		E6930304228CF7F1005E5E9E /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
 		E6930306228CF805005E5E9E /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		E6930308228CF822005E5E9E /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		E6A9D0932294DB3900833363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,16 +103,17 @@
 				E69302EE228CEE43005E5E9E /* AppDelegate.swift */,
 				E69302F0228CEE43005E5E9E /* ViewController.swift */,
 				E69302F2228CEE43005E5E9E /* Main.storyboard */,
-				E69302F5228CEE45005E5E9E /* Assets.xcassets */,
 				E69302F7228CEE45005E5E9E /* LaunchScreen.storyboard */,
 				E69302FA228CEE45005E5E9E /* Info.plist */,
 				E6930300228CF7C6005E5E9E /* LoginViewController.swift */,
 				E6930302228CF7D9005E5E9E /* HomeViewController.swift */,
 				E6930304228CF7F1005E5E9E /* ImageSelectViewController.swift */,
+				E6A9D0932294DB3900833363 /* Assets.xcassets */,
 				E6930306228CF805005E5E9E /* PostViewController.swift */,
 				E6930308228CF822005E5E9E /* SettingViewController.swift */,
 				E6354941228D2BC800238DD1 /* GoogleService-Info.plist */,
 				E644ECC822928DE400A4A013 /* Const.swift */,
+				E660C10E2295238000C42D49 /* CommentViewController.swift */,
 				E644ECCA229399E500A4A013 /* PostData.swift */,
 				E644ECD02293A04600A4A013 /* PostTableViewCell.swift */,
 				E644ECD12293A04600A4A013 /* PostTableViewCell.xib */,
@@ -179,9 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E69302F9228CEE45005E5E9E /* LaunchScreen.storyboard in Resources */,
+				E6A9D0942294DB3A00833363 /* Assets.xcassets in Resources */,
 				E644ECD32293A04600A4A013 /* PostTableViewCell.xib in Resources */,
 				E6354942228D2BC900238DD1 /* GoogleService-Info.plist in Resources */,
-				E69302F6228CEE45005E5E9E /* Assets.xcassets in Resources */,
 				E69302F4228CEE43005E5E9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +265,7 @@
 				E644ECD22293A04600A4A013 /* PostTableViewCell.swift in Sources */,
 				E6930309228CF822005E5E9E /* SettingViewController.swift in Sources */,
 				E6930307228CF805005E5E9E /* PostViewController.swift in Sources */,
+				E660C10F2295238000C42D49 /* CommentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

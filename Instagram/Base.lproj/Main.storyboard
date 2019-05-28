@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -108,6 +109,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="azq-8q-0SA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="785" y="793"/>
+        </scene>
+        <!--Comment View Controller-->
+        <scene sceneID="QpX-E4-jsB">
+            <objects>
+                <viewController storyboardIdentifier="Comment" id="DHI-FY-f9g" customClass="CommentViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZKa-f0-7VW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="コメントを入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8dq-Fz-4EV">
+                                <rect key="frame" x="37.5" y="100" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="Hmb-CT-YRI"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFw-I3-hHp">
+                                <rect key="frame" x="37.5" y="140" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="ny1-9Q-AHV"/>
+                                </constraints>
+                                <state key="normal" title="送信" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="sendButton:" destination="DHI-FY-f9g" eventType="touchUpInside" id="Iyo-kj-XL3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc0-vo-Eah">
+                                <rect key="frame" x="37.5" y="190" width="300" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="20P-HZ-z2m"/>
+                                </constraints>
+                                <state key="normal" title="キャンセル" backgroundImage="btn"/>
+                                <connections>
+                                    <action selector="cancelButton:" destination="DHI-FY-f9g" eventType="touchUpInside" id="xnF-vO-y20"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zc0-vo-Eah" firstAttribute="centerX" secondItem="ZKa-f0-7VW" secondAttribute="centerX" id="K9n-ES-hKg"/>
+                            <constraint firstItem="Zc0-vo-Eah" firstAttribute="top" secondItem="LFw-I3-hHp" secondAttribute="bottom" constant="10" id="PDe-eK-fVe"/>
+                            <constraint firstItem="8dq-Fz-4EV" firstAttribute="top" secondItem="fhS-yw-cCR" secondAttribute="top" constant="80" id="Vj4-Tc-i3n"/>
+                            <constraint firstItem="LFw-I3-hHp" firstAttribute="top" secondItem="8dq-Fz-4EV" secondAttribute="bottom" constant="10" id="hw8-Zc-zaS"/>
+                            <constraint firstItem="8dq-Fz-4EV" firstAttribute="centerX" secondItem="ZKa-f0-7VW" secondAttribute="centerX" id="jJf-g4-23q"/>
+                            <constraint firstItem="LFw-I3-hHp" firstAttribute="centerX" secondItem="ZKa-f0-7VW" secondAttribute="centerX" id="wKR-E2-oQW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fhS-yw-cCR"/>
+                    </view>
+                    <connections>
+                        <outlet property="commentTextField" destination="8dq-Fz-4EV" id="fQR-ru-BdJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TXa-eL-9V5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="1480.2098950524739"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="6Sa-Fi-RE3">
